@@ -1,202 +1,53 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #000;
-    color: #fff;
-    line-height: 1.6;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    overflow-x: hidden;
-    position: relative;
-    padding-top: 100px;
-}
-
-/* Animated Background */
-.background {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background: #0c0303;
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
     overflow: hidden;
 }
 
-.background span {
-    width: 3vmin;
-    height: 3vmin;
-    border-radius: 3vmin;
-    backface-visibility: hidden;
-    position: absolute;
-    animation: move;
-    animation-duration: 38s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+.container {
+    position: relative;
+    z-index: 10;
+    padding: 20px;
 }
 
-.background span:nth-child(1) {
-    color: #49a43d;
-    top: 38%;
-    left: 1%;
-    animation-duration: 12s;
-    animation-delay: -112s;
-    transform-origin: -9vw -18vh;
-    box-shadow: -6vmin 0 1.5717764659285858vmin currentColor;
-}
-.background span:nth-child(2) {
-    color: #49a43d;
-    top: 29%;
-    left: 57%;
-    animation-duration: 33s;
-    animation-delay: -89s;
-    transform-origin: -4vw 8vh;
-    box-shadow: -6vmin 0 1.521644120278743vmin currentColor;
-}
-.background span:nth-child(3) {
-    color: #191028;
-    top: 9%;
-    left: 92%;
-    animation-duration: 50s;
-    animation-delay: -27s;
-    transform-origin: 10vw 17vh;
-    box-shadow: -6vmin 0 0.9934906089898881vmin currentColor;
-}
-
-/* Add other span styles from your code... */
-
-/* Section */
-.section {
-    padding: 3rem 2rem;
+header {
     text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #00FF00;
+    text-shadow: 0 0 10px #00FF00;
+}
+
+section {
+    margin-bottom: 40px;
 }
 
 h2 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+    color: #00FF00;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
-.skill-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 3rem;
+ul {
+    list-style-type: none;
 }
 
-.skill {
-    background-color: #222;
-    padding: 2rem;
-    border-radius: 5px;
-    width: 250px;
-    font-size: 1.1rem;
-    box-shadow: 0 0 10px #fff;
-    transition: transform 0.3s;
-    text-align: left;
-}
-
-.skill:hover {
-    transform: scale(1.1);
-    background-color: #3498db;
-}
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.project {
-    background-color: #222;
-    padding: 2rem;
-    border-radius: 5px;
-    text-align: left;
-    transition: transform 0.3s;
-}
-
-.project:hover {
-    transform: scale(1.05);
-    background-color: #3498db;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fff;
-}
-
-form button {
-    width: 100%;
-    padding: 1rem;
-    background-color: #3498db;
-    border: none;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #2980b9;
-}
-
-/* CashApp Section */
-#payment {
-    margin-top: 2rem;
-}
-
-#payment a {
-    color: #3498db;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#payment a:hover {
-    color: #2980b9;
-}
-
-/* Footer */
 footer {
-    padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: 40px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    header .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .projects {
-        grid-template-columns: 1fr;
-    }
-
-    .skill-box {
-        flex-direction: column;
-    }
-
-    body {
-        padding-top: 120px;
-    }
+a {
+    color: #00FF00;
 }
