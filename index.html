@@ -9,74 +9,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="#">cuedev</a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="terminal">
+        <header>
+            <h1>KazuDev</h1>
+            <h2>Cybersecurity Enthusiast & Developer</h2>
+        </header>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Welcome to cuedev.de</h1>
-                <p>Get ready for some code!</p>
-                <a href="#projects" class="cta-btn">Access Projects</a>
-            </div>
+        <section class="commands">
+            <pre>
+kazudev@secure:~$ whoami
+17-year-old developer with 4 years of experience
+
+kazudev@secure:~$ cat skills.txt
+C#, C++, JavaScript, HTML, Cybersecurity
+
+kazudev@secure:~$ echo "Status: Learning cybersecurity"
+Status: Learning cybersecurity
+            </pre>
         </section>
 
-        <section id="about" class="section">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>I'm a developer with a passion for creating everything from scratch using terminal commands and old-school code.</p>
-            </div>
-        </section>
-
-        <section id="projects" class="section">
-            <div class="container">
-                <h2>My Projects</h2>
-                <div class="projects">
-                    <div class="project">
-                        <h3>Project 1</h3>
-                        <p>Command-line tool for handling tasks.</p>
-                    </div>
-                    <div class="project">
-                        <h3>Project 2</h3>
-                        <p>Terminal-based web scraper built with Python.</p>
-                    </div>
-                    <div class="project">
-                        <h3>Project 3</h3>
-                        <p>Automated script for monitoring system processes.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section">
-            <div class="container">
-                <h2>Contact Me</h2>
-                <form action="#">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
+        <footer>
             <p>&copy; 2025 cuedev.de | Built by Cuedev</p>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>
