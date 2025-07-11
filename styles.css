@@ -161,6 +161,21 @@ form button:hover {
     background-color: #2980b9;
 }
 
+/* CashApp Section */
+#payment {
+    margin-top: 2rem;
+}
+
+#payment a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#payment a:hover {
+    color: #2980b9;
+}
+
 /* Footer */
 footer {
     padding: 1rem;
