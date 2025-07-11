@@ -42,7 +42,7 @@ I'm **CueDev**, a passionate developer who loves to create innovative solutions.
 ## Projects
 
 ### Project 1: Dark Fantasy Game (Unity)
-- A dark fantasy game built using Unity, featuring immersive 3D environments, engaging combat mechanics, and a captivating storyline.
+- A dark fantasy game built using Unity, featuring immersive 3D environments, engaging combat mechanics, and a fesselnd storyline.
 
 ### Project 2: CueDev Portfolio (This Website)
 - The very website you're currently viewing, built with HTML, CSS, and JavaScript to showcase my projects and skills.
@@ -54,7 +54,7 @@ I'm **CueDev**, a passionate developer who loves to create innovative solutions.
 
 If you'd like to get in touch, feel free to send me a message through the contact form on this website or reach out via email.
 
-- **Email**: cuedev@example.com (Replace with your actual email)
+- **Email**: devslifer2029@gmail.com
 
 ## Support My Work
 
