@@ -98,6 +98,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+    margin-top: 2rem; /* Added to bring skills lower */
 }
 
 .skill {
