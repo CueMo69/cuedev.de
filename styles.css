@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     overflow-x: hidden;
     position: relative;
-    padding-top: 100px;  /* Add space on top to ensure visibility */
+    padding-top: 100px;  /* Ensure some padding at the top of the page */
 }
 
 /* Background */
@@ -83,11 +83,11 @@ header nav ul li a:hover {
 
 /* Section */
 .section {
-    padding: 6rem 2rem;
+    padding: 3rem 2rem;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 100px; /* Move all content down */
+    margin-top: 150px; /* Move sections lower */
 }
 
 h2 {
@@ -100,7 +100,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin-top: 2rem; /* Added to bring skills lower */
+    margin-top: 3rem; /* Increased spacing between skills */
 }
 
 .skill {
