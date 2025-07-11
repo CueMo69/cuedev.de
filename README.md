@@ -9,6 +9,6 @@ Welcome to the official website of cuedev!
 - **Projects Showcase**: Display your amazing works to the world.
 - **Contact Form**: Let visitors reach out.
 
-## How to Set Up
+## Join The Discord
 
-1. Clone the repository:
+<Link>
